@@ -2,9 +2,9 @@
 2. ~(p V q) |- ~p & ~q 			   OK
 3. r V s |- ~p & ~q				   NO
 4. |- p V ~p					   OK
-5. |- ~(p & ~q)
-6. ~(~p V ~q) |- p & q
-7. ~p |- p -> q
+5. |- ~(p & ~q)					   OK
+6. ~(~p V ~q) |- p & q			   OK
+7. ~p |- p -> q					   OK
 8. (p & q) -> r |- p -> (q -> r)
 9. p -> q |- ~p V q
 10. p V q, ~q |- p

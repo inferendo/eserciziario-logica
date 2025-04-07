@@ -24,7 +24,7 @@
   ],
   
   [
-    Spiegare perché "Piove e non piove" implica "Nevica" (principio dello Pseudo-Scoto.
+    Spiegare perché "Piove e non piove" implica "Nevica" (principio dello Pseudo-Scoto).
   ],
   
   [
@@ -133,6 +133,9 @@
 
   [
      Che cosa si intende per 'interpretazione di *L*'? Esiste una interpretazione di *L* che falsifica ogni formula che contiene al più un'occorrenza di un connettivo?
+  ],
+  [
+    Dati il linguaggio *L* e qualsiasi interpretazione _V_, dare due esempi diversi di formule ben formate che rappresentino una funzione di verità $f: {0,1}^2 arrow.r {0,1}$ tale che $f(x_1, x_2) = 1$ _sse_ $[x_2]_V eq.not [x_2]_V$.
   ]
 
 

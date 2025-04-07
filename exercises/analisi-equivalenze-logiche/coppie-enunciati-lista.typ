@@ -6,7 +6,17 @@
 
 #set text(lang: "it")
 
+/*
+(
+  [
 
+  ],
+
+  [
+    
+  ]
+)
+*/
 
 
 #let enunciates_tuples_list = shuffle-arrays(seed, (
@@ -141,6 +151,58 @@
     Sono e non sono.
   ]
 ),
+
+(
+  [
+    Pietro è scapolo.
+  ],
+
+  [
+    Se Pietro non è scapolo, allora Pietro è scapolo.
+  ]
+),
+
+(
+  [
+    Mangio solo se ho fame.
+  ],
+
+  [
+    Ho fame e mangio oppure ho fame e non mangio.
+  ]
+),
+
+(
+  [
+    Mangio a meno che io non senta fame.
+  ],
+
+  [
+    Ho fame e mangio oppure non ho fame e non mangio.
+  ]
+
+),
+
+(
+  [
+    $x$ è condizione necessaria per $y$.
+  ],
+  [
+    Non $x$, se non $y$.
+  ]
+),
+
+(
+  [
+    $x$ è condizione necessaria e sufficiente per $y$.
+  ],
+  [
+    $x$ se $y$ e vice versa.
+  ]
+)
+
+
+
 
 
 )

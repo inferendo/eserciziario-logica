@@ -89,7 +89,7 @@
     1. $R$ è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è cugino di $y$" e $A$ è l'insieme degli esseri umani.
     2. R è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è più alto di $y$" e $A$ è l'insieme degli esseri umani.
     3. $R$ è la relazione "essere un multiplo di" e $A$ è $NN$.
-    4. $R = {$(_Roma, Atene_), (Madrid, Madrid), (Roma, Londra), (Londra, Atene)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
+    4. $R = {$(_Roma, Atene_), (_Madrid, Madrid_), (_Roma, Londra_), (Londra, Atene)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
   ],
   
   [
@@ -121,9 +121,21 @@
   ],
 
   [
-    Dato un insieme di formule $Gamma = {phi_1, phi_2, ..., phi_n}$ calcolare il numero di interpretazioni tali che $[phi_n * phi_(n+1)]_v = 1$ dove $*$ indica tutti gli operatori logici in *L*. Dimostrare il procedimento.
+    Dato un insieme di formule $Gamma = {phi_1, phi_2, ..., phi_n}$ calcolare il numero di interpretazioni _$V$_ tali che $[phi_n * phi_(n+1)]_V = 1$ dove $*$ indica tutti gli operatori logici in *L*. Dimostrare il procedimento.
   ],
-  
+  [
+    È vero che gli elementi di un insieme incoerente non possono essere tutti falsi allo stesso tempo? Motivare la risposta con un argomento in suo favore, nel caso sia positiva, o con un contro-esempio, nel caso sia negativa. 
+  ],
+
+  [
+     Che cosa si intende per 'interpretazione di *L*'? Esiste una interpretazione di *L* che verifica ogni formula atomica?
+  ],
+
+  [
+     Che cosa si intende per 'interpretazione di *L*'? Esiste una interpretazione di *L* che falsifica ogni formula che contiene al più un'occorrenza di un connettivo?
+  ]
+
+
   )
 
 ).at(1)

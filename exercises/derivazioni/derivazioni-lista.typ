@@ -4,7 +4,7 @@
 
 (p -> q) & (q -> r) |- (p -> r)
 ~(p V q) |- ~p & ~q
-r V s |- ~p & ~q
+r V s |- ~p & ~q sbagliata
 |- p V ~p
 |- ~(p & ~q)
 ~(~p V ~q) |- p & q
@@ -54,13 +54,12 @@ p V (q V r) |- q V (p V r)
 */
 #let derives = $tack.r$
 
-
 #let derivations_list = (
   
 
 [$(p supset q) and (q supset r) derives (p supset r)$],
 [$not (p or q) derives not p and not q$],
-[$r or s derives not p and not q$],
+// [$r or s derives not p and not q$],
 [$derives p or not p$],
 [$derives not (p and not q)$],
 [$not (not p or not q) derives p and q$],

@@ -12,7 +12,7 @@
   header: [
     #align(right)[
       #text(7pt)[
-        Seed: #seed. Creato da Edoardo G.
+        Seed: #seed. Sviluppato da Edoardo G.
       ]
     ]
   ],

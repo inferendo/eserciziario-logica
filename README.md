@@ -6,4 +6,4 @@ Alcuni degli esercizi sono estratti da:
 - Varzi, Achille C., John Nolt, e Dennis A. Rohatyn. _Logica._ 3. ed. Milano: McGraw Hill Education, 2022.
 - Iacona, Andrea. _LOGIC: Lecture Notes for Philosophy, Mathematics, and Computer Science._ 1st edition. Springer Undergraduate Texts in Philosophy. Cham, Switzerland: Springer International Publishing, 2021.
 
-
+[Lista indicativa degli esercizi, aggiornata automaticamente (click)](https://github.com/inferendo/eserciziario-logica/blob/main/pdf/lista_es.pdf)

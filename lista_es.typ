@@ -8,6 +8,11 @@
 ]
 ]
 #let derives = $tack.r$
+#show math.equation: eq => {
+    show sym.not: math.class("unary", sym.tilde)
+    eq
+}
+
 
 
 

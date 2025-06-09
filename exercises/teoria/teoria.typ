@@ -5,7 +5,7 @@
 
 #let exercise(cfg) = [
   #show math.equation: eq => {
-    show sym.not: sym.tilde
+    show sym.not: math.class("unary", sym.tilde)
     eq
 }
 #linebreak()

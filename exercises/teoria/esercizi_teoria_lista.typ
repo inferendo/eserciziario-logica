@@ -136,6 +136,22 @@
   ],
   [
     Dati il linguaggio *L* e qualsiasi interpretazione _V_, dare due esempi diversi di formule ben formate che rappresentino una funzione di verità $f: {0,1}^2 arrow.r {0,1}$ tale che $f(x_1, x_2) = 1$ _sse_ $[x_2]_V eq.not [x_2]_V$.
+  ],
+
+  [
+    Determinare se le seguenti asserzioni sono vere o false: (a) per ogni coppia di formule $alpha, beta$, vale che $alpha models beta$ oppure $beta models alpha$; (b) per ogni coppia di formule $alpha, beta$, vale che $models (alpha supset beta) or (beta supset alpha)$. Motivare le risposte.
+  ],
+
+  [
+    È possibile trovare tre formule del linguaggio della logica enunciativa $alpha$, $beta$, e $gamma$ tali per cui vale che $alpha models gamma$ e $beta models gamma$, ma $alpha$ e $beta$ non sono logicamente equivalenti? Fornire un esempio (se possibile) o una spiegazione (se impossibile).
+  ],
+
+  [
+    Si consideri la seguente formula: $(p supset q) and (p supset r)$. (i) determinare se è una validità logica e poi (ii) determinare se si può trovare una formula $alpha$ non-contraddittoria tale che $alpha models (p supset q) and (p supset r)$.
+  ],
+
+  [
+    L'insieme delle formule _non_ valide del linguaggio della logica enunciativa è decidibile? Motivare la propria risposta.
   ]
 
 

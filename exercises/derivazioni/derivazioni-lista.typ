@@ -61,7 +61,7 @@ p V (q V r) |- q V (p V r)
 [$not (p or q) derives not p and not q$],
 // [$r or s derives not p and not q$],
 [$derives p or not p$],
-[$derives not (p and not q)$],
+[$derives not (p and not p)$],
 [$not (not p or not q) derives p and q$],
 [$not p derives p supset q$],
 [$(p and q) supset r derives p supset (q supset r)$],

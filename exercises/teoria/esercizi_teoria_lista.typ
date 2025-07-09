@@ -89,7 +89,7 @@
     1. $R$ è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è cugino di $y$" e $A$ è l'insieme degli esseri umani.
     2. R è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è più alto di $y$" e $A$ è l'insieme degli esseri umani.
     3. $R$ è la relazione "essere un multiplo di" e $A$ è $NN$.
-    4. $R = {$(_Roma, Atene_), (_Madrid, Madrid_), (_Roma, Londra_), (Londra, Atene)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
+    4. $R = {$(_Roma, Atene_), (_Madrid, Madrid_), (_Roma, Londra_), (_Londra, Atene_)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
   ],
   
   [

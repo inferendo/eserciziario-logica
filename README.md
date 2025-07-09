@@ -10,6 +10,16 @@ Alcuni degli esercizi sono estratti da:
 
 [Lista indicativa degli esercizi, aggiornata automaticamente (click, download diretto)](https://github.com/inferendo/eserciziario-logica/raw/main/pdf/lista_es.pdf)
 
+Esempi di prove (click, download diretto): [1](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/1.pdf)   [2](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/2.pdf)   [3](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/3.pdf)   [4](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/4.pdf)   [5](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/5.pdf)   [6](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/6.pdf)   [7](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/7.pdf)   [8](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/8.pdf)   [9](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/9.pdf)   [10](https://github.com/inferendo/eserciziario-logica/raw/main/prove_es/10.pdf)
+
+
+
+
+
+
+
+
+
 
 # Guida per l'utilizzo
 

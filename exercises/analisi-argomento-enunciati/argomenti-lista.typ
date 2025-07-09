@@ -45,3 +45,4 @@
     "Ciascun triangolo isoscele ha tutti i lati uguali. Tutti i triangoli hanno tre lati. Presa una cosa qualsiasi, se quella cosa è un triangolo, è un triangolo isoscele. Non possiamo quindi dubitare che ciascun trangolo ha tre lati uguali.",
     "Tra le cose che giovano alla salute ci sono: una dieta sana e l'abitudine al movimento fisico. Ciò che non giova alla salute, la danneggia. Dunque, ascoltare buona musica arreca danni alla salute."
   )
+

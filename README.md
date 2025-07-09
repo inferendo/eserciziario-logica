@@ -27,7 +27,6 @@ Esempi di prove (click, download diretto): [1](https://github.com/inferendo/eser
 2. scaricare ed estrarre l'archivio .zip di questa repository
 3. compilare una prova di esame con
 ```
-
     typst compile main.typ --input %seed% %filename_output.pdf%
 ```
 

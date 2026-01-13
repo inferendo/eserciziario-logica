@@ -49,7 +49,7 @@ p V (q V r) |- q V (p V r)
 (~p -> ~q) & (~q -> q) |- p
 (p -> q) & (p -> r) |- p -> (q & r)
 (p -> r) & (q -> r) |- (p V q) -> r
-
+~~(p -> q) |-  ~~p -> ~~q
 
 */
 #let derives = $tack.r$
@@ -104,5 +104,6 @@ p V (q V r) |- q V (p V r)
 [$(not p supset not q) and (not q supset q) derives p$],
 [$(p supset q) and (p supset r) derives p supset (q and r)$],
 [$(p supset r) and (q supset r) derives (p or q) supset r$],
+[$not not (p then q) derives not not p then not not q$],
 
 )

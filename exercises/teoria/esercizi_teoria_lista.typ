@@ -80,7 +80,7 @@
   ],
   
   [
-    Dimostrare che per ogni coppia di insiemi $A, B$ si ha $(A backslash B) sect B = emptyset$
+    Dimostrare che per ogni coppia di insiemi $A, B$ si ha $(A backslash B) inter B = emptyset$
   ],
   
   [

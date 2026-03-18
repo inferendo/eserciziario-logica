@@ -8,7 +8,7 @@
     eq
 }
 
-
+#set par(justify: true)
 
 #let theory_exercises = shuffle(gen-rng(seed), (
   [
@@ -44,7 +44,7 @@
   ],
   
   [
-    Fornire un insieme di enunciati inconsistente ma tale che ogni sotto-insieme di esso sia consistente.
+    Fornire un insieme di enunciati incoerente secondo *L* ma tale che ogni sotto-insieme di esso sia coerente sempre secondo *L*.
   ],
   
   [
@@ -56,11 +56,11 @@
   ],
   
   [
-    Fornire un esempio di coppia di formule del linguaggio della logica enunciativa che possono essere contemporaneamente false ma non contemporaneamente vere.
+    Fornire un esempio di coppia di formule del linguaggio *L* che possono essere contemporaneamente false ma non contemporaneamente vere.
   ],
   
   [
-    L'insieme delle formule valide del linguaggio della logica enunciativa è decidibile? Motivare la propria risposta.
+    L'insieme delle formule valide del linguaggio *L* è decidibile? Motivare la propria risposta.
   ],
   
   [
@@ -68,7 +68,7 @@
   ],
   
   [
-    Un argomento che esemplifica una forma invalida esprimibile in un linguaggio enunciativo può essere valido?
+    Può essere valido un argomento che esemplifica una forma invalida esprimibile in *L*?
   ],
   
   [
@@ -79,17 +79,12 @@
     Dimostrare che per ogni coppia di insiemi $A, B$ si ha $A union (B backslash A) = A union B$
   ],
   
-  [
+  text[
     Dimostrare che per ogni coppia di insiemi $A, B$ si ha $(A backslash B) inter B = emptyset$
   ],
   
   [
-    Per ciascuno dei modi seguenti di specificare la relazione $R$ e l'insieme $A$, si dica se $R$ è antiriflessiva su A e se R è transitiva su A. 
-  
-    1. $R$ è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è cugino di $y$" e $A$ è l'insieme degli esseri umani.
-    2. R è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è più alto di $y$" e $A$ è l'insieme degli esseri umani.
-    3. $R$ è la relazione "essere un multiplo di" e $A$ è $NN$.
-    4. $R = {$(_Roma, Atene_), (_Madrid, Madrid_), (_Roma, Londra_), (_Londra, Atene_)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
+    Per ciascuno dei modi seguenti di specificare la relazione $R$ e l'insieme $A$, si dica se $R$ è antiriflessiva su A e se R è transitiva su A.\ 1. $R$ è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è cugino di $y$" e $A$ è l'insieme degli esseri umani.\ 2. R è la relazione che contiene le coppie $(x, y)$ tali che "$x$ è più alto di $y$" e $A$ è l'insieme degli esseri umani.\ 3. $R$ è la relazione "essere un multiplo di" e $A$ è $NN$.\ 4. $R = {$(_Roma, Atene_), (_Madrid, Madrid_), (_Roma, Londra_), (_Londra, Atene_)$}$ e $A = {$_Roma, Parigi, Londra, Atene_$}$
   ],
   
   [
@@ -102,6 +97,7 @@
   [
     Dato l'insieme $A = {x,y,z,u,w}$ e la relazione $R$ su $A$ definita come:
     $R = {(x,x), (y,y), (z,z), (u, u), (w,w) (x,y), (y,x), (x,z), (z,x),(y,z),(u,w),(w,u)}$
+    
     1. Determinare se $R$ è riflessiva.
     2. Determinare se $R$ è simmetrica.
     3. Determinare se $R$ è transitiva.
@@ -143,7 +139,7 @@
   ],
 
   [
-    È possibile trovare tre formule del linguaggio della logica enunciativa $alpha$, $beta$, e $gamma$ tali per cui vale che $alpha models gamma$ e $beta models gamma$, ma $alpha$ e $beta$ non sono logicamente equivalenti? Fornire un esempio (se possibile) o una spiegazione (se impossibile).
+    È possibile trovare tre formule di *L* $alpha$, $beta$, e $gamma$ tali per cui vale che $alpha models gamma$ e $beta models gamma$, ma $alpha$ e $beta$ non sono logicamente equivalenti? Fornire un esempio (se possibile) o una spiegazione (se impossibile).
   ],
 
   [
@@ -151,7 +147,7 @@
   ],
 
   [
-    L'insieme delle formule _non_ valide del linguaggio della logica enunciativa è decidibile? Motivare la propria risposta.
+    L'insieme delle formule _non_ valide del linguaggio della logica proposizionale *L* è decidibile? Motivare la propria risposta.
   ]
 
 

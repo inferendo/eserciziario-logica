@@ -2,6 +2,7 @@
 #import "@preview/suiji:0.3.0": *
 #import "../utils.typ": *
 #import "esercizi_teoria_lista.typ": theory_exercises
+#set par(justify: true)
 
 #let exercise(cfg) = [
   #show math.equation: eq => {
@@ -13,14 +14,13 @@
   #let numberex = cfg.level
 #heading(level:cfg.level, [(#points(15)pt )])
 
-#par(justify: true)[
   #text(12pt)[
   *_Teoria (1)._* #theory_exercises.at(0) \ 
   *_Teoria (2)._* #theory_exercises.at(1) \ 
   *_Teoria (3)._* #theory_exercises.at(2) \ 
   *_Teoria (4)._* #theory_exercises.at(3) \
   *_Teoria (5)._* #theory_exercises.at(4) \
-]
+
   
 ]
 

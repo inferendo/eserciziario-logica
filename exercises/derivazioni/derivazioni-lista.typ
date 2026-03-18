@@ -111,5 +111,6 @@ p V (q V r) |- q V (p V r)
 [$(p supset q) and (p supset r) derives p supset (q and r)$],
 [$(p supset r) and (q supset r) derives (p or q) supset r$],
 [$not not (p supset q) derives not not p supset not not q$],
+[$derives (p supset (q supset p)) supset ((not p supset not q) supset (q supset p))$],
 
 )

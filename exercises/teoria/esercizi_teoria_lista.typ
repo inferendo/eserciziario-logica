@@ -56,7 +56,7 @@
   ],
   
   [
-    Fornire un esempio di coppia di formule del linguaggio *L* che possono essere contemporaneamente false ma non contemporaneamente vere.
+    Fornire un esempio di coppia di formule del linguaggio *L* tale che, per qualsiasi interpretazione $V$, possano essere entrambe false ma non entrambe vere.
   ],
   
   [
@@ -120,7 +120,7 @@
     Dato un insieme di formule $Gamma = {phi_1, phi_2, ..., phi_n}$ calcolare il numero di interpretazioni _$V$_ tali che $[phi_n * phi_(n+1)]_V = 1$ dove $*$ indica tutti gli operatori logici in *L*. Dimostrare il procedimento.
   ],
   [
-    È vero che gli elementi di un insieme incoerente non possono essere tutti falsi allo stesso tempo? Motivare la risposta con un argomento in suo favore, nel caso sia positiva, o con un contro-esempio, nel caso sia negativa. 
+    È vero che le formule di un insieme incoerente non possono essere tutte false in una qualsiasi interpretazione? Motivare la risposta con un argomento in suo favore, nel caso sia positiva, o con un contro-esempio, nel caso sia negativa. 
   ],
 
   [
@@ -131,7 +131,7 @@
      Che cosa si intende per 'interpretazione di *L*'? Esiste una interpretazione di *L* che falsifica ogni formula che contiene al più un'occorrenza di un connettivo?
   ],
   [
-    Dati il linguaggio *L* e qualsiasi interpretazione _V_, dare due esempi diversi di formule ben formate che rappresentino una funzione di verità $f: {0,1}^2 arrow.r {0,1}$ tale che $f(x_1, x_2) = 1$ _sse_ $[x_2]_V eq.not [x_2]_V$.
+    Dati il linguaggio *L* e qualsiasi interpretazione _V_, dare due esempi diversi di formule ben formate che rappresentino una funzione di verità $ f: {0,1}^2 arrow.r {0,1} "tale che" f(x_1, x_2) = 1 "se e solo se" [x_1]_V eq.not [x_2]_V $.
   ],
 
   [
@@ -148,6 +148,10 @@
 
   [
     L'insieme delle formule _non_ valide del linguaggio della logica proposizionale *L* è decidibile? Motivare la propria risposta.
+  ], 
+
+  [
+    Sia $alpha supset beta$ una tautologia dove $alpha$ non è una contraddizione e $beta$ non è una tautologia. Dimostrare che, per ogni interpretazione $V$, esiste almeno una formula $gamma$ tale che sia $alpha supset gamma$ sia $gamma supset beta$ siano tautologie, secondo l'ipotesi per cui in $gamma$ occorrano variabili proposizionali condivise da $alpha$ e $beta$.
   ]
 
 

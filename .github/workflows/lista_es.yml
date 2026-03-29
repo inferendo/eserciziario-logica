@@ -1,4 +1,4 @@
-name: Build Typst document
+name: Build Typst document, lista esercizi
 
 on:
   push:

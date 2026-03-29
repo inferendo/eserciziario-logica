@@ -117,7 +117,7 @@
   ],
 
   [
-    Dato un insieme di formule $Gamma = {phi_1, phi_2, ..., phi_n}$ calcolare il numero di interpretazioni _$V$_ tali che $[phi_n * phi_(n+1)]_V = 1$ dove $*$ indica tutti gli operatori logici in *L*. Dimostrare il procedimento.
+    Dato un insieme di formule $Gamma = {phi_1, phi_2, ..., phi_n}$ su $k$ variabili proposizionali, fornire il numero di interpretazioni che soddisfano $ and.big Gamma = phi_1 and phi_2 and ... and phi_n $ e $ or.big Gamma = phi_1 or phi_2 or ... or phi_n "." $ Verificare la soluzione fornita su un esempio con almeno tre formule.
   ],
   [
     È vero che le formule di un insieme incoerente non possono essere tutte false in una qualsiasi interpretazione? Motivare la risposta con un argomento in suo favore, nel caso sia positiva, o con un contro-esempio, nel caso sia negativa. 

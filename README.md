@@ -20,7 +20,7 @@ Esempi di prove (click, download diretto): [1](https://github.com/inferendo/eser
 
 
 
-# Guida per l'utilizzo
+# Guida per l'utilizzo (compilare altre prove)
 
 1. installare [Typst](https://github.com/typst/typst) (!!!!!)
 2. scaricare ed estrarre l'archivio .zip di questa repository
